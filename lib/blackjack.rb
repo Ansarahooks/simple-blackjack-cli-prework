@@ -56,7 +56,7 @@ def runner
   until sum > 21
     hit? (sum)
     display_card_total (total)
-    binding.pry
+binding.pry
   end
   end_game
 end
