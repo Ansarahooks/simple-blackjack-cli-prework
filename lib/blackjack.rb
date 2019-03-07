@@ -47,7 +47,7 @@ end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-
+require 'pry'
 def runner
   welcome
   initial_round
@@ -56,6 +56,7 @@ def runner
   until sum > 21
     hit? (sum)
     display_card_total (total)
+    binding.pry
   end
   end_game
 end
