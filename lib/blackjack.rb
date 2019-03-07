@@ -48,6 +48,7 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 require 'pry'
+
 def runner
   welcome
   initial_round
