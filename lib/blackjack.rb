@@ -1,3 +1,4 @@
+require 'pry'
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -47,7 +48,7 @@ end
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
-require 'pry'
+
 def runner
   welcome
   initial_round
